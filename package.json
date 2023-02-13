@@ -1,0 +1,24 @@
+{
+  "name": "crud_cli",
+  "version": "1.0.0",
+  "description": "CRUD Command Line App made with node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaVista/CRUD_cli.git"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "crud"
+  ],
+  "author": "Javi Carrion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JavaVista/CRUD_cli/issues"
+  },
+  "homepage": "https://github.com/JavaVista/CRUD_cli#readme"
+}
