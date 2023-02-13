@@ -17,8 +17,13 @@
   ],
   "author": "Javi Carrion",
   "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/JavaVista/CRUD_cli/issues"
   },
-  "homepage": "https://github.com/JavaVista/CRUD_cli#readme"
+  "homepage": "https://github.com/JavaVista/CRUD_cli#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "uuid": "^9.0.0"
+  }
 }
