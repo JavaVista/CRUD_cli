@@ -31,7 +31,7 @@ export default async function addData(info) {
             id: uuidv4(),
             name: answer.name,
             phoneNumber: answer.phone,
-            adult: answer.age,
+            age: answer.age,
         };
         info.push(data);
 
@@ -54,7 +54,7 @@ export default async function addData(info) {
 async function addDetails(info) {
     await fs.writeFile('db.json', JSON.stringify(info), function (error) {
         if (error) {
-            console.log('Er`ror writing to the database file');
+            console.log('Error writing to the database file');
         }
         console.log('Data was successfully added!');
     });
